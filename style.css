@@ -1,0 +1,125 @@
+.container{
+    width: 400px;
+    height:90vh;
+    /* display: flex; */
+    border: 2px solid pink;
+}
+.header{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+.header p{
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 400;
+}
+.icons{
+    margin-top: 10px;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.story{
+    margin-top: 23px;
+    display: flex;
+    height:60px;
+    width: 100%;
+    gap: 10px;
+}
+.image{
+    margin-top: 5px;
+    height: 45px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.image img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+p{
+    margin-top: 7px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.image2{
+    border: 2px solid #d012e1;
+    height: 58px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.image2 img{
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    width: 55px;
+    height: 55px;
+    /* object-fit: cover; */
+}
+
+.name{
+    font-weight: 700;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+.feeds{
+    margin-top: 14px;
+}
+.post1{
+    display: flex;
+    align-items: last baseline;
+    width: 100%;
+    height: 50px;
+}
+.post1 .user-profile{
+   height: 35px;
+   width: 35px;
+   border: 2px solid pink;
+   border-radius: 50%;
+   text-align: center;
+}
+.post1 .user-profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    object-fit: cover;
+    margin-top: 1px;
+}
+.feeds .post1 .userName{
+    margin-left: 10px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+.feeds .post1 .userName p{
+    font-weight: bold;
+}
+.feeds .post1 .userName span img{
+   width: 12px;
+   margin-left: 7px;
+}
+.feeds .post1 .dot{
+    text-align: center;
+    margin-left: 12vw;
+    margin-top: 5px;
+}
+.feeds .user-post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feeds .user-post img{
+    /* margin-left: -11px; */
+   width: 100%;
+   border-radius: 1.5px;
+}
