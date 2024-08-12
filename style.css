@@ -1,5 +1,5 @@
 .container{
-    width: 400px;
+    width: 300px;
     height:85vh;
     /* display: flex; */
     /* border: 2px solid pink; */
@@ -11,15 +11,22 @@
     /* align-items: center; */
     /* border: 1px solid black; */
     /* justify-content: space-between; */
-    justify-content: center;
-    gap: 200px;
+    /* justify-content: center; */
+    /* gap: 80px; */
 }
-.header p{
-    font-size: larger;
-    font-style: oblique;
-    font-weight: 400;
+.header .instalogo{
+    display: flex;
+    /* align-items: baseline; */
+}
+.header img{
+    width: 40px;
+    height:40px;
+}
+.header .instalogo p{
+     font-size: 15px;
 }
 .icons{
+    margin-left: 105px;
     margin-top: 10px;
     height: 100%;
     width: 60px;
@@ -29,19 +36,20 @@
     justify-content: space-around;
     font-size: 25px;
 }
+ 
 .story{
     margin-top: 23px;
     display: flex;
     height:60px;
     width: 100%;
-    gap: 10px;
+    gap: 14px;
 }
 .image{
     margin-top: 5px;
     height: 45px;
     width: 50px;
     border-radius: 50%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .image img{
     height: 50px;
@@ -55,7 +63,8 @@ p{
     font-weight: 600;
 }
 .image2{
-    border: 2px solid #d012e1;
+    /* border: 2px solid #d012e1; */
+    border: 2px solid #f11408;
     height: 58px;
     width: 60px;
     border-radius: 50%;
@@ -87,7 +96,8 @@ p{
 .post1 .user-profile{
    height: 35px;
    width: 35px;
-   border: 2px solid pink;
+   /* border: 2px solid pink; */
+   border: 2px solid #f11408;
    border-radius: 50%;
    text-align: center;
 }
@@ -114,7 +124,7 @@ p{
 }
 .feeds .post1 .dot{
     text-align: center;
-    margin-left: 12vw;
+    margin-left: 155px;
     margin-top: 5px;
 }
 .feeds .user-post{
@@ -143,5 +153,6 @@ p{
     transition: color 0.3s ease;
 }
 .heart-active {
-     color: rgb(255, 0, 195);
+     /* color: rgb(255, 0, 195); */
+     color: red;
 }
