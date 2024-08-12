@@ -1,5 +1,5 @@
 .container{
-    width: 355px;
+    width: 400px;
     height:85vh;
     /* display: flex; */
     /* border: 2px solid pink; */
@@ -26,7 +26,7 @@
      font-size: 15px;
 }
 .icons{
-    margin-left: 105px;
+    margin-left: 205px;
     margin-top: 10px;
     height: 100%;
     width: 60px;
@@ -42,7 +42,7 @@
     display: flex;
     height:60px;
     width: 100%;
-    gap: 14px;
+    gap: 20px;
 }
 .image{
     margin-top: 5px;
@@ -124,7 +124,7 @@ p{
 }
 .feeds .post1 .dot{
     text-align: center;
-    margin-left: 155px;
+    margin-left: 250px;
     margin-top: 5px;
 }
 .feeds .user-post{
